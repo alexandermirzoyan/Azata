@@ -1,0 +1,28 @@
+.footer-wrapper{
+    background-color: #a4d792;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.footer-left-side{
+    margin-right: 90px; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none
+}
+
+a:hover{
+    text-decoration: underline;
+}

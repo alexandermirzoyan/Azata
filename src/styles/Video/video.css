@@ -1,0 +1,11 @@
+.video {
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    justify-content: center
+}
+
+.video video{
+    width: 95vw;
+    height: 95vh;
+}

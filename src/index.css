@@ -1,41 +1,35 @@
 body{
-    font-family: 'Concert One', cursive;
+    font-family: 'Concert One', cursive !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0 !important;
 }
 
 .d-flex{
-    display: flex;
+    display: flex !important;
+}
+
+.d-none{
+    display: none !important;
+}
+
+.align-items-center{
+    align-items: center !important;
 }
 
 .justify-content-around{
-    justify-content: space-around;
+    justify-content: space-around !important;
 }
 
-.first-block{
-    background-color: #0c5949;
+.justify-content-between{
+    justify-content: space-between !important;
 }
 
-a{
-    color: white;
-    /*margin-right: 10px; */
-    padding-bottom: 10px;
-    position: relative;
-    text-decoration: none;
+.h2{
+    font-size: 9vw !important;
 }
 
-.underlined-link{
-
-}
-
-a:hover{
-    margin-right: 6.23px;
-}
-
-a:hover span{
-    position: absolute;
-    bottom: -1px;
-    height: 4px;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background-color: white;
+.color-white{
+    color: white !important;
 }

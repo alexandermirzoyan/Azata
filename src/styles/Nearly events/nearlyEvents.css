@@ -1,0 +1,167 @@
+.heading-and-image{
+    display: flex;
+    margin: 50px 7% 30px 7%;
+    width: 40%;
+    border: 1px solid gold;
+}
+
+.heading2 {
+    width: 100%;
+    margin: 0;
+    border: 1px solid green;
+}
+
+.nearly {
+    width: 100%;
+    color: #d8d9d9;
+    font-size: 120px;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.eventsAndSales {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    margin: 0;
+    border: 1px solid red;
+}
+
+.events, .sales {
+    margin: 0;
+    color: #d8d9d9;
+    font-size: 60px;
+    border: 1px solid black;
+}
+
+.and {
+    color: #d8d9d9;
+    font-size: 20px;
+    margin: 0 5%;
+    border: 1px solid black;
+}
+
+.description2 {
+    color: #d8d9d9;
+    font-size: 30px;
+    flex-wrap: wrap;
+    margin: 0 7%;
+    width: 40%;
+    border: 1px solid black;
+}
+
+/*.first-button {
+    position: absolute;
+    font: 30px 'Concert One';
+    color: #0c5949;
+    background-color: #d8d9d9;
+    width: 170px;
+    height: 45px;
+    right: 410px;
+    border: 0;
+    border-radius: 50px;
+    padding: 0 0 5px 0;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 1), 0 8px 20px 0 rgba(0, 0, 0, 0.50);
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.next-page-button {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 560px;
+    left: 45%;
+    background-color: #00614e;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 0 0 0;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.next-page-button:hover {
+    background-color: #0c5955;
+}
+
+.first-button:hover {
+    background-color: #ffffff;
+}
+
+.next-page-button img {
+    width: 60px;
+}*/
+
+
+
+/*With some changes*/
+
+.nearly-events-intro-wrapper{
+    margin-left: 7%;
+}
+
+.nearly-events-slider--button-wrapper{
+    margin-right: 7%;
+}
+
+.nearly-events-wrapper{
+    height: 95vh;
+    background-color: #c41241;
+}
+
+.nearly-events-intro-wrapper p{
+    font-size: 5vw;
+}
+
+.cocktail-icon-wrapper img{
+    /*width: 167px;
+    height: 218px;*/
+    width: 15vw;
+    margin: 0 0 0 0;
+    /*border: 1px solid black;*/
+}
+
+.carousel-wrapper img{
+    width: 20vw;
+}
+
+.second-button{
+    font-size: 30px;
+    color: white;
+    background-color: #16a5a3;
+    width: 170px;
+    height: 45px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 50px;
+    padding: 0 0 5px 0;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,1), 0 8px 20px 0 rgba(0,0,0,0.50);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .nearly-events-wrapper{
+        flex-direction: column;
+        justify-content: space-around !important;
+    }
+    .nearly-events-slider--button-wrapper{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nearly-events-slider--button-wrapper img{
+        width: 200px;
+    }
+    .nearly-events-intro-wrapper{
+        margin: 0;
+    }
+}
