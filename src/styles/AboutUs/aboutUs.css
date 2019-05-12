@@ -1,0 +1,141 @@
+/*.about-us-wrapper{
+    background-color: #db4a13;
+    height: 95vh;
+}
+
+.about-us-title-wrapper{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.about-us-title-wrapper h2{
+    width: 40%;
+    margin: 5vh 0 2vh 0;
+}
+
+.discriptions-and-icon{
+    display: flex;   
+    justify-content: space-between;
+    height: 55%;
+    margin: 2% 7% 0 7%;
+    border: 0px solid black;
+}
+
+.icon img{
+    height: 100%;
+    flex-grow: 0;
+}
+
+.discription-first p{
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    width: 25vw;
+}
+
+.discription-second p{
+    font-size: 25px;
+    color: #ffffff;
+    text-align: right;
+    width: 25vw;
+}
+
+.more-button{
+    font: 30px 'Concert One';
+    color: #db4a13;
+    background-color: #fff;
+    width: 170px;
+    height: 45px;
+    margin: 0 78%;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 50px;
+    padding: 0 0 5px 0;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,1), 0 8px 20px 0 rgba(0,0,0,0.50);
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.more-button:hover{
+    background-color: #ffded1;
+}
+
+@media screen and (max-width: 768px){
+    .discriptions-and-icon{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .icon img{
+        transform: scale(0.5);
+    }
+}*/
+
+.about-us-wrapper{
+    height: 95vh;
+    background-color: #db4a13;
+}
+
+.about-us-intro-wrapper{
+    margin: 0 7%;
+}
+
+.about-us-title-wrapper h2{
+    font-size: 7vw !important;
+    text-align: center;
+}
+
+.about-us-wrapper p{
+    font-size: 2vw;
+}
+
+.about-us-icon-wrapper{
+    display: block;
+    margin: auto;
+}
+
+.about-us-right-side-wrapper p{
+    text-align: right;
+}
+
+.about-us-icon-wrapper img{
+    width: 20vw;
+}
+
+.about-us-more-button{
+    font: 30px 'Concert One';
+    color: #db4a13;
+    background-color: #fff;
+    width: 170px;
+    height: 45px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 50px;
+    padding: 0 0 5px 0;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,1), 0 8px 20px 0 rgba(0,0,0,0.50);
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .about-us-title-wrapper h2{
+        font-size: 12vw !important;
+        text-align: center;
+    }
+    .about-us-wrapper p{
+        font-size: 3vw; 
+    }
+    .big-size-button{
+        display: none;
+    }
+    .small-size-button{
+        display: flex !important;
+        justify-content: center;
+    }
+}

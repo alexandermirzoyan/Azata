@@ -1,10 +1,25 @@
 import React, { Component } from 'react';
 
+import SuggestionPopUp from '../SuggestionPopUp/SuggestionPopUp'
+
 import idea from "../../images/idea.png";
 
 import "../../styles/Suggestion/suggestion.css";
 
 class Suggestion extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isOpen: false,
+        }
+    }
+
+    toggleIsOpen = () => {
+        this.setState({ isOpen: !this.state.isOpen })
+
+        console.log(this.state.isOpen)
+    }
+
     render() {
         return (
             <div className="suggestion-block-wrapper" >
@@ -12,7 +27,11 @@ class Suggestion extends Component {
                     <h2 className="color-white" >Do you have a suggestion?</h2>
                 </div>
 
-                <div className="d-flex content-wrapper" >
+                {this.state.isOpen ?
+                    <SuggestionPopUp isOpen={this.state.isOpen} />
+                : null}
+
+                <div className="d-flex suggestion-content-wrapper" >
                     <div className="idea-image-wrapper big-screen-size-idea-image-wrapper" >
                         <img src={idea} alt="idea-image-for-big-screen-size" />
                     </div>
@@ -23,7 +42,7 @@ class Suggestion extends Component {
                         <div className="d-none idea-image-wrapper small-screen-size-idea-image-wrapper" >
                             <img src={idea} alt="idea-image" />
                         </div>
-                        <button className=" suggestion-pop-up-button">make offer</button>
+                        <button onClick={this.toggleIsOpen} className="suggestion-pop-up-button">make offer</button>
                     </div>
                 </div>
             </div>

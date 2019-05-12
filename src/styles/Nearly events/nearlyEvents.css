@@ -130,7 +130,7 @@
 }
 
 .second-button{
-    font-size: 30px;
+    font: 30px 'Concert One';
     color: white;
     background-color: #16a5a3;
     width: 170px;

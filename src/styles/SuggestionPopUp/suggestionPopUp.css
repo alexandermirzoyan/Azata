@@ -1,0 +1,15 @@
+.pop-up-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.close{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    cursor: pointer;
+}
