@@ -9,17 +9,17 @@ class Footer extends Component {
             <footer className="d-flex align-items-center footer-wrapper">
                 <div className="footer-left-side" >
                     <ul>
-                        <li> <a href="/"> Lorem Ipsum </a> </li>
-                        <li> <a href="/"> Lorem Ipsum </a> </li>
-                        <li> <a href="/"> Lorem Ipsum </a> </li>
+                        <li> <NavLink to="/asd"> Lorem Ipsum </NavLink> </li>
+                        <li> <NavLink to="/asd"> Lorem Ipsum </NavLink> </li>
+                        <li> <NavLink to="/asd"> Lorem Ipsum </NavLink> </li>
                     </ul>
                 </div>
 
                 <div className="footer-right-side" >
                     <ul>
-                        <li> <a href="/"> Lorem Ipsum </a> </li>
-                        <li> <a href="/"> Lorem Ipsum </a> </li>
-                        <li> <a href="/"> Lorem Ipsum </a> </li>
+                        <li> <NavLink to="/asd"> Lorem Ipsum </NavLink> </li>
+                        <li> <NavLink to="/"> Lorem Ipsum </NavLink> </li>
+                        <li> <NavLink to="/" > Lorem Ipsum </NavLink> </li>
                     </ul>
                 </div>
             </footer>
