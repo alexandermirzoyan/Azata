@@ -16,18 +16,17 @@ class Suggestion extends Component {
 
     togglePopUp = () => {
         this.setState({ isOpen: !this.state.isOpen })
-
         console.log(this.state.isOpen)
-    };
+    }
 
     render() {
         return (
-            <div className="suggestion-block-wrapper" >
-                <div className="suggestion-title-wrapper" >
-                    <h2 className="color-white" >Do you have a suggestion?</h2>
-                </div>
 
-                {this.state.isOpen ? <SuggestionPopUp isOpen={this.state.isOpen} /> :
+            this.state.isOpen ? <SuggestionPopUp isOpen={this.state.isOpen} /> :
+                <div className="suggestion-block-wrapper" >
+                    <div className="suggestion-title-wrapper" >
+                        <h2 className="color-white" >Do you have a suggestion?</h2>
+                    </div>
                     <div className="d-flex suggestion-content-wrapper" >
                         <div className="idea-image-wrapper big-screen-size-idea-image-wrapper" >
                             <img src={idea} alt="idea-icon-for-big-screen-size" />
@@ -42,10 +41,7 @@ class Suggestion extends Component {
                             <button onClick={this.togglePopUp} className="suggestion-pop-up-button">make offer</button>
                         </div>
                     </div>
-                }
-
-
-            </div>
+                </div>
         )
     }
 }
