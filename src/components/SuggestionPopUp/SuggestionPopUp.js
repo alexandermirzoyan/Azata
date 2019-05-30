@@ -71,7 +71,7 @@ class SuggestionPopUp extends Component {
                             <textarea className="suggestion-pop-up-textarea" />
                             <div className="d-flex upload-pdf-button-wrapper" >
                                 <button className="upload-pdf-pop-up" >upload PDF</button>
-                                <button className="upload-pdf-pop-up" >send</button>
+                                <button className="send-button-pop-up" >send</button>
                             </div>
                         </div>
                     </div>

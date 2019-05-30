@@ -83,26 +83,45 @@
 }
 
 .upload-pdf-pop-up{
+  font: 20px 'Concert One';
+  color: #2a394d;
+  background-color: white;
+  width: 130px;
+  height: 35px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 50px;
+  padding: 0 0 5px 0;
+  box-shadow: 0 0 7px 0 rgba(0,0,0,1), 0 8px 20px 0 rgba(0,0,0,0.50);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.send-button-pop-up{
   font: 30px 'Concert One';
-    color: white;
-    background-color: #fb5968;
-    width: 170px;
-    height: 45px;
-    margin-top: 10px;
-    border: 0;
-    border-radius: 50px;
-    padding: 0 0 5px 0;
-    box-shadow: 0 0 7px 0 rgba(0,0,0,1), 0 8px 20px 0 rgba(0,0,0,0.50);
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
+  color: white;
+  background-color: #fb5968;
+  width: 170px;
+  height: 45px;
+  margin-top: 40px;
+  border: 0;
+  border-radius: 50px;
+  padding: 0 0 5px 0;
+  box-shadow: 0 0 7px 0 rgba(0,0,0,1), 0 8px 20px 0 rgba(0,0,0,0.50);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .upload-pdf-button-wrapper{
-  justify-content: flex-end;
   margin-right: 7%; 
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 /*COPY-PASTE*/
@@ -324,3 +343,16 @@
     --fieldBorderColorActive: #62d5c4;
   }
   
+@media screen and (max-width: 768px){
+  .pop-up-left-side-wrapper{
+    /*display: block;
+    position: absolute;*/
+    /*width: 100%;
+    height: 20%;*/
+    display: none;
+  }
+  .pop-up-right-side-wrapper{
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+  }
+}
