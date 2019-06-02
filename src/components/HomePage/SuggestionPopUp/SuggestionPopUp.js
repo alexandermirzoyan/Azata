@@ -1,12 +1,12 @@
 import React, { Component, Fragment } from 'react'
 
-import HomePage from '../../pages/HomePage/HomePage'
+import HomePage from '../../../pages/HomePage/HomePage'
 import Suggestion from '../Suggestion/Suggestion'
 
-import popUpRocket from '../../images/pop-up-rocket.png'
-import closeButton from '../../icons/close-button.png'
+import popUpRocket from '../../../images/pop-up-rocket.png'
+import closeButton from '../../../icons/close-button.png'
 
-import '../../styles/SuggestionPopUp/suggestionPopUp.css'
+import '../../../styles/SuggestionPopUp/suggestionPopUp.css'
 
 class SuggestionPopUp extends Component {
     constructor(props) {

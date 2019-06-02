@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import Play from "../../images/Mercedes-Benz presents_ King of the City Jungle _ S-Class Commercial.mp4"
+import Play from "../../../images/Mercedes-Benz presents_ King of the City Jungle _ S-Class Commercial.mp4"
 
-import "../../styles/Video/video.css"
+import "../../../styles/Video/video.css"
 
 class Video extends Component{
     render() {

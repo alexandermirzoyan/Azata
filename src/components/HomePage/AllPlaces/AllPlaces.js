@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Table from "../../images/table.png"
-import Next from "../../icons/down-arrow new.png"
+import Table from "../../../images/table.png"
+import Next from "../../../icons/down-arrow new.png"
 
-import "../../styles/AllPlaces/allPlaces.css"
+import "../../../styles/AllPlaces/allPlaces.css"
 
 class AllPlaces extends Component {
     /*<div className="d-flex all-places">

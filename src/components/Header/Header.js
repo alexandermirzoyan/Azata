@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {NavLink} from 'react-router-dom'
 
 import Logo from '../../icons/logo-png.png'
 import searchIcon from "../../icons/search.png"
@@ -12,7 +13,9 @@ class Header extends Component {
             <div className="header-wrapper">
                 <div className="left-side">
                     <div className="header-logo-wrapper">
+                        <NavLink to="/" >
                         <img className="header-logo-img" src={Logo} alt="Logo-icon"/>
+                        </NavLink>
                     </div>
                 </div>
 

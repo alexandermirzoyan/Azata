@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import SuggestionPopUp from '../SuggestionPopUp/SuggestionPopUp'
 
-import idea from "../../images/idea.png";
+import idea from "../../../images/idea.png";
 
-import "../../styles/Suggestion/suggestion.css";
+import "../../../styles/Suggestion/suggestion.css";
 
 class Suggestion extends Component {
     constructor(props) {
