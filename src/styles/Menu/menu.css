@@ -1,0 +1,13 @@
+.about-us-menu-wrapper{
+    background-color: orange;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.about-us-menu-wrapper h1{
+    text-align: center;
+}
+
+.about-us-menu-wrapper ul{
+    flex-direction: column;
+}

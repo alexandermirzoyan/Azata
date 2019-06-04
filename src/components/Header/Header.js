@@ -10,7 +10,7 @@ import "../../styles/Header/header.css"
 class Header extends Component {
     render() {
         return (
-            <div className="header-wrapper">
+            <header className="header-wrapper">
                 <div className="left-side">
                     <div className="header-logo-wrapper">
                         <NavLink to="/" >
@@ -26,7 +26,7 @@ class Header extends Component {
                     <a href="/en">ENG</a>
 
                 </div>
-            </div>
+            </header>
         )
     }
 }
