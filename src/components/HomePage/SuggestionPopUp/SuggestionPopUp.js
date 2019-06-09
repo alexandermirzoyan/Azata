@@ -6,7 +6,7 @@ import Suggestion from '../Suggestion/Suggestion'
 import popUpRocket from '../../../images/pop-up-rocket.png'
 import closeButton from '../../../icons/close-button.png'
 
-import '../../../styles/SuggestionPopUp/suggestionPopUp.css'
+import '../../../styles/HomePage/SuggestionPopUp/suggestionPopUp.css'
 
 class SuggestionPopUp extends Component {
     constructor(props) {

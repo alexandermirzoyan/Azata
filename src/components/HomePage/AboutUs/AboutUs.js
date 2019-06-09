@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Lamp from "../../../images/lamp.png"
-
+import React, { Component } from "react"
 import { NavLink } from 'react-router-dom'
 
-import "../../../styles/AboutUs/aboutUs.css"
+import Lamp from "../../../images/lamp.png"
+
+import "../../../styles/HomePage/AboutUs/aboutUs.css"
 
 class AboutUs extends Component {
     render() {

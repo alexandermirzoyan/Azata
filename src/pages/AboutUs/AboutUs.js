@@ -3,6 +3,8 @@ import { ThemeProvider } from 'styled-components'
 
 import Header from '../../components/Header/Header'
 import Menu from '../../components/AboutUs/Menu'
+import Content from '../../components/AboutUs/Content'
+import Add from '../../components/AddBlocks/Add'
 
 class AboutUs extends Component{
     render(){
@@ -13,7 +15,11 @@ class AboutUs extends Component{
         return(
             <Fragment>
                 <Header/>
-                <Menu/>
+                <div className="d-flex about-us-page-content-wrapper" >
+                    <Menu/>
+                    <Content />
+                    <Add />
+                </div>
             </Fragment>
         )
     }

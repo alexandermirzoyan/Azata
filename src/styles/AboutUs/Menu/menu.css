@@ -1,6 +1,7 @@
 .about-us-menu-wrapper{
-    background-color: orange;
-    width: 15%;
+    background-color: #d9b100;
+    width: 10%;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -10,4 +11,5 @@
 
 .about-us-menu-wrapper ul{
     flex-direction: column;
+    margin-left: 7%;
 }

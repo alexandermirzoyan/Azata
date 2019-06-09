@@ -17,7 +17,7 @@ class HomePage extends Component {
                     <AllPlaces />
                     <Video />
                     <Events />
-                    <AboutUs/>
+                    <AboutUs />
                     <Suggestion />
                     <Footer />
                 </div>

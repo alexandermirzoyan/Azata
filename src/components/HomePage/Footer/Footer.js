@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import '../../../styles/Footer/footer.css'
+import '../../../styles/HomePage/Footer/footer.css'
 
 class Footer extends Component {
     render() {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "../../../styles/Nearly events/nearlyEvents.css"
+import "../../../styles/HomePage/Nearly events/nearlyEvents.css"
 
 import slider_image from '../../../images/food.jpg'
 import Next from "../../../icons/down-arrow new.png";

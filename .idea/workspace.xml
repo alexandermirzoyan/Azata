@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8331f5f0-b5de-426f-9e69-be98651697e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/AboutUs/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/AboutUs/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutUs/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutUs/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Menu/menu.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,32 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/SuggestionPopUp/SuggestionPopUp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Suggestion/Suggestion.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -63,13 +42,27 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="azata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="azata" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Workspace/Web/Back end/POST and GET Methods" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Workspace/Web/Back end/CRUD WEB" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -101,16 +94,18 @@
       <workItem from="1558017742029" duration="1193000" />
       <workItem from="1558023782982" duration="13000" />
       <workItem from="1558101867391" duration="134000" />
+      <workItem from="1560023791064" duration="204000" />
+      <workItem from="1560075832014" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1340000" />
+    <option name="totallyTimeSpent" value="1618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18910742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19213313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -144,22 +139,14 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/SuggestionPopUp/SuggestionPopUp.js">
+    <entry file="file://$PROJECT_DIR$/src/components/SuggestionPopUp/SuggestionPopUp.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Suggestion/Suggestion.js" />
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Suggestion/Suggestion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
